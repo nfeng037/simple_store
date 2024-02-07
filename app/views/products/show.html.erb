@@ -1,3 +1,13 @@
 <h1>Product Title: <%= @product.title %> </h1>
-<p> Price: <%= @product.price %> <p>
-<p> Stock Quantity: <%= @product.stock_quantity %> </p>
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+<p>
+<p>
+  <strong>Stock Quantity:</strong>
+  <%= @product.stock_quantity %>
+</p>
+<p>
+  <strong>Category:</strong>
+  <%= @product.category.name %>
+</p>
